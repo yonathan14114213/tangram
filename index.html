@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TANGRAM</title>
+  </head>
+  <body>
+    <div
+      id="body"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      "
+    >
+      <div
+        id="container"
+        style="
+          position: relative;
+          width: 500px;
+          height: 500px;
+          padding: 50px;
+          background-color: royalblue;
+        "
+      >
+        <div
+          id="big-triangle-one"
+          style="
+            position: absolute;
+            clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
+            transform: rotate(90deg);
+            background-color: green;
+            width: 100%;
+            height: 100%;
+            left: 0%;
+            top: 0%;
+          "
+        ></div>
+        <div
+          id="big-triangle-two"
+          style="
+            position: absolute;
+            clip-path: polygon(0% 0%, 50% 50%, 0% 100%);
+            background-color: orange;
+            width: 100%;
+            height: 100%;
+            left: 0%;
+            top: 0%;
+          "
+        ></div>
+        <div
+          id="square"
+          style="
+            position: absolute;
+            background-color: yellow;
+            clip-path: polygon(50% 50%, 25% 75%, 50% 100%, 75% 75%);
+            left: 0%;
+            top: 0%;
+            width: 100%;
+            height: 100%;
+          "
+        ></div>
+
+        <div
+          id="middle-triangle"
+          style="
+            position: absolute;
+            clip-path: polygon(100% 50%, 50% 100%, 100% 100%);
+            background-color: red;
+            width: 100%;
+            height: 100%;
+            left: 0%;
+            top: 0%;
+          "
+        ></div>
+        <div
+          id="small-triangle-one"
+          style="
+            position: absolute;
+            background-color: purple;
+            clip-path: polygon(0% 100%, 25% 75%, 50% 100%);
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+          "
+        ></div>
+        <div
+          id="small-triangle-two"
+          style="
+            position: absolute;
+            background-color: violet;
+            clip-path: polygon(75% 25%, 50% 50%, 75% 75%);
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+          "
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
